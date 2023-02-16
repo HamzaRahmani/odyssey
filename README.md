@@ -28,7 +28,7 @@ $ git clone https://github.com/HamzaRahmani/odyssey.git
 $ cd odyssey
 ```
 
-To install odyssey, run:
+Then setup all necessary dependencies:
 
 ```sh
 $ npm install
