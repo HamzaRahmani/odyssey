@@ -7,7 +7,7 @@ The 20-20-20 rule is a tactic widely used to avoid eye strain symptoms. The conc
 ## Demo
 
 ![Main UI](https://i.imgur.com/BO6KiGS.png "Main UI")
-![Notification](https://i.imgur.com/Vtk7eA3.png"Notification")
+![Notification](https://i.imgur.com/1BKCbKw.png"Notification")
 
 ## Install
 
@@ -28,7 +28,7 @@ $ git clone https://github.com/HamzaRahmani/odyssey.git
 $ cd odyssey
 ```
 
-To install odyssey, run:
+Then setup all necessary dependencies:
 
 ```sh
 $ npm install
