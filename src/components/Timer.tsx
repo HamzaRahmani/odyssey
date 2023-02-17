@@ -32,11 +32,16 @@ const Timer = ({ startTime }: TimerProps): JSX.Element => {
   const minutes = Math.floor(timeLeft / 60);
   const seconds = timeLeft % 60;
 
+  const getDoubleDigit = (time: number) =>
+    time.toLocaleString("en-US", {
+      minimumIntegerDigits: 2,
+      useGrouping: false,
+    });
+
   return (
     <React.Fragment>
       <div role="timer">
-        {minutes < 10 ? `0${minutes}` : minutes}:
-        {seconds < 10 ? `0${seconds}` : seconds}
+        {getDoubleDigit(minutes)}:{getDoubleDigit(seconds)}
       </div>
       <div className="container">
         <Button
